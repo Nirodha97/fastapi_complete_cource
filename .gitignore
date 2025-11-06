@@ -1,0 +1,55 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Dependency & build folders
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Cache and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+
+# Database files (if using SQLite for local dev)
+*.db
+*.sqlite3
+
+# Environment variables file
+.env.local
+.env.*.local
+
+# FastAPI specific (optional examples)
+# Uvicorn or Gunicorn PID / socket files
+*.pid
+*.sock
